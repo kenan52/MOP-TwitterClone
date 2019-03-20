@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: #e6ecf0;
+    position: relative;
+    color: #14171a;
+    font-size: 14px;
+    line-height: 43px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.global-nav{
+    background: #fff;
+    height: 46px;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+.global-nav .containter{
+    height: 100%;
+    max-width: 890px;
+    text-align: center;
+    width: auto;
+}
+.containter{
+    position: relative;
+}
+.menu-global{
+    margin: 0;
+    margin-left: 8%;
+}
+.menu-global li{
+    float: left;
+    list-style: none;
+}
+.menu-global a{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 11px;
+    color: #66757f;
+}
+.home a{
+    color: #1DA1F2;
+}
+.menu-global .home{
+    overflow: hidden;
+}
+#search{
+    float: right;
+    display: inline-block; 
+    overflow: hidden;
+    margin-right: 14%;
+}
+#search input {
+    width: 200px;
+    margin-top: 0px;
+    display: inline;
+    background-color: #f5f8fa;
+    border-radius: 50px;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 5px;
+}
+.content_box{
+    margin: auto;
+    width: 1190px;
+    height: 900px;
+}
+.profile_box{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+    width: 290px;
+    height: 123px;
+    background-color: white;
+    border: 1px solid #e6ecf0;
+}
+#tweet{
+    width: 70%;
+    height: 55px;
+    margin-top: 10px;
+    display:inline-block;
+    background-color: #1F2833;
+    border: 1px solid #e6ecf0;
+}
+#tweet input{
+    margin-top: 9px;
+    margin-left: 60px;
+    width: 50%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 9px;
+}
+.tweets{
+    width: 70%;
+    background-color: #FFFFFF;
+    display:inline-block;
+    border: 1px solid #e6ecf0;
+}
+.item {
+    margin-top: 10px;
+  margin-left: 75px;
+  padding: 5px;
+  background: #ffffff;
+  margin-bottom: 10px;
+  line-height: 23px;
+}
+.item img{
+    display: inline;
+}
+.profile_box #userimg{
+    height: 100px;
+    margin-top: 10px;
+}
+#userData{
+    display: inline-block;
+    float: right;
+    margin-top: 7px;
+    margin-right: 9px;
+}
+#tweetCount{
+    display: inline-block;
+    float: right;
+    margin-top: 21px;
+    margin-right: 86px; 
+}
+#userimg_box{
+    margin: 10px;
+    border-radius: 50%;
+    height: 100px;
+}
+#userimg{
+    position: absolute;
+    width: 50px;
+    margin-left: -64px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.content_tweets{
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}

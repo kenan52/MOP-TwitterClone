@@ -1,0 +1,50 @@
+<div class="global-nav">
+    <div class="container">
+        <ul class="menu-global">
+            <li class="home">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="notifications">
+                <a href="index.html"><span class="Icon_home"></span>Notifications</a>
+            </li>
+            <li class="messages">
+                <a href="index.html">Messages</a>
+            </li>
+        </ul>
+        <div id="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+</div>
+<div class="content_box">
+    <div class="profile_box">
+        <img id="userimg_box" src="{{user.image}}" alt="user img">
+        <div id="userData">
+            <p>{{user.author}}<br>
+                Tweets: {{items.length}}</p>
+        </div>
+    </div>
+    <div id="tweet" <section class="insert">
+        <form action="/insert" method="post">
+            <div class="input">
+                <input type="text" id="content" name="content" placeholder="Please enter your tweet and press Enter">
+            </div>
+        </form>
+    </div>
+    <div class="tweets">
+        <section class="get">
+            <div>
+                {{#each items }}
+                <div class="content_tweets">
+                <article class="item">
+                    <img id="userimg" src="{{../user.image}}" alt="user img">
+                    <div>{{ this.author }} - {{getRelativeTime this.time }}</div>
+                    <div>{{ this.client }}</div>
+                    <div>{{ this.content }}</div>
+                </article>
+                </div>
+                {{/each}}
+            </div>
+        </section>
+    </div>
+</div>
